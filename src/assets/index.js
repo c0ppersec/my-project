@@ -9,7 +9,7 @@ import close from "./close.svg";
 import tvc from "./tvc.png";
 import mv from "./mv.png";
 import shortmovie from "./shortmovie.png";
-import ads from "./ads.png";
+import adses from "./adses.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -54,7 +54,7 @@ export {
   tvc,
   mv,
   shortmovie,
-  ads,
+  adses,
   web,
   github,
   menu,

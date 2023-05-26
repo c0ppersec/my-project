@@ -5,7 +5,7 @@ import {
   tvc,
   mv,
   shortmovie,
-  ads,
+  adses,
   web,
   javascript,
   typescript,
@@ -70,7 +70,7 @@ const services = [
   },
   {
     title: "Digital Ads",
-    icon: ads,
+    icon: adses,
   },
 ];
 
