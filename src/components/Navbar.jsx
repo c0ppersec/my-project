@@ -24,7 +24,7 @@ const Navbar = () => {
       >
         <img src={logo} alt="logo" className='w-12
         h-12 object-contain' />
-        <p className='text-secondary text-[17px]
+        <p className='text-white-100 text-[17px]
         font-semibold cursor-pointer flex'>
           Walk&nbsp; 
           <span className='sm:block hidden'> | Production House</span>

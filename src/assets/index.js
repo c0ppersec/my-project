@@ -43,6 +43,8 @@ import grab from "./grab.png";
 import lovedelivery from "./lovedelivery.jpg";
 import msw from "./msw.jpg";
 import bonumpos from "./bonumpos.jpg";
+import mahen from "./mahen.jpg";
+import enchanteur from "./enchanteur.jpg"
 
 export {
   logo,
@@ -87,4 +89,6 @@ export {
   enchanteurlogo,
   indosemarlogo,
   dplogo,
+  mahen,
+  enchanteur,
 };

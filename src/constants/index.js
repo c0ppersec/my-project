@@ -36,6 +36,8 @@ import {
   grab,
   lovedelivery,
   msw,
+  mahen,
+  enchanteur,
 } from "../assets";
 
 export const navLinks = [
@@ -319,46 +321,46 @@ const projects = [
     source_code_link: "https://www.youtube.com/watch?v=2ly9RfFTd8c",
   },
   {
-    name: "Job IT",
+    name: "Mahen - Datang Untuk Pergi (Official Lyrics Video)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Client: Indosemarsakti | PH : Walk Art Creative ",
     tags: [
       {
-        name: "react",
+        name: "indosemar",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mahen",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "musicvideo",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mahen,
+    source_code_link: "https://www.youtube.com/watch?v=q9CTvktt45c",
   },
   {
-    name: "Trip Guide",
+    name: "ENCHANTEUR Eau De Cologne (Digital Advertising)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "PH: Walk Art Creative",
     tags: [
       {
-        name: "nextjs",
+        name: "enchanteur",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "parfume",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ads",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: enchanteur,
+    source_code_link: "https://www.youtube.com/watch?v=LCfdZUMmOdQ",
   },
   
 ];

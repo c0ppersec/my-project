@@ -9,19 +9,19 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
+        {/* <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#E4212A]' />
           <div className='w-1 sm:h-80 h-40 red-gradient' />
-        </div>
+        </div> */}
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white md:max-lg:flex`}>
-            We're <span className='text-[#D92332]'> Walk Art Creative</span>
+          <h1 className={`${styles.heroHeadText} mt-20 text-white 100 md:max-lg:flex`}>
+            We're <span className='text-[#FFFFFF]'> Walk Art Creative</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-black-100 animate-pulse`}>
+          <p className={`${styles.heroSubText} ml-3 mt-2 text-transparent text-1xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 animate-pulse`}>
            We bring your imagine to life <br className='sm:block hidden' />
           </p>
-          <p className='flex-auto mt-32 ml-96 pl-96 font-normal text-transparent text-1xl bg-clip-text bg-gradient-to-r from-red-500 to-blue-700 text-[15px] max-1xl leading-[19px]'>
+          <p className='flex-auto mt-32 ml-96 pl-96 font-normal text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700 text-[17.5px] max-1xl leading-[19px]'>
           With experience in various industries, we provide creative digital solutions to <br />
           help you achieve your goals.
 
