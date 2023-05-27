@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
       <p className="mb-20 font-medium text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
