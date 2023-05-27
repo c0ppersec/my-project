@@ -16,10 +16,10 @@ const Hero = () => {
         </div> */}
 
         <div>
-          <h1 className={`${styles.heroHeadText} mt-20 text-white 100 md:max-lg:flex`}>
+          <h1 className={`${styles.heroHeadText} mt-10 text-white 100 md:max-lg:flex`}>
             Walk Art<span className='text-[#FFFFFF]'> Here!</span>
           </h1>
-          <p className={`${styles.heroSubText} ml-3 mt-2 text-transparent text-1xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 animate-pulse`}>
+          <p className={`${styles.heroSubText} ml-3 text-transparent text-1xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 animate-pulse`}>
            We bring your imagine to life <br className='sm:block hidden' />
           </p>
           <p className=' md:max-lg:flex mt-32 ml-72 pl-96 font-normal text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700 text-[17.5px] max-1xl leading-[19px]'>
@@ -33,11 +33,11 @@ const Hero = () => {
       <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-      <p className="font-medium text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+      <p className="mb-20 font-medium text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
           Get to know more &nbsp; 
         </p>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='mb-20 w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
