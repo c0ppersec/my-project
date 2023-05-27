@@ -20,7 +20,7 @@ const Hero = () => {
             Walk Art<span className='text-[#FFFFFF]'> Here!</span>
           </h1>
           <p className={`${styles.heroSubText} ml-3 text-transparent text-1xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 animate-pulse`}>
-           We bring your imagine to life <br className='sm:block hidden' />
+           We bring your imagination to life <br className='sm:block hidden' />
           </p>
           <p className=' md:max-lg:flex mt-32 ml-72 pl-96 font-normal text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700 text-[17.5px] max-1xl leading-[19px]'>
           With experience in various industries, we provide creative digital solutions to <br />
