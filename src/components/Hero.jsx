@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   return (
@@ -16,12 +17,12 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} mt-20 text-white 100 md:max-lg:flex`}>
-            We're <span className='text-[#FFFFFF]'> Walk Art Creative</span>
+            Walk Art<span className='text-[#FFFFFF]'> Here!</span>
           </h1>
           <p className={`${styles.heroSubText} ml-3 mt-2 text-transparent text-1xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 animate-pulse`}>
            We bring your imagine to life <br className='sm:block hidden' />
           </p>
-          <p className='flex-auto mt-32 ml-96 pl-96 font-normal text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700 text-[17.5px] max-1xl leading-[19px]'>
+          <p className=' md:max-lg:flex mt-32 ml-72 pl-96 font-normal text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700 text-[17.5px] max-1xl leading-[19px]'>
           With experience in various industries, we provide creative digital solutions to <br />
           help you achieve your goals.
 
@@ -57,4 +58,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, "");
