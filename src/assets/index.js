@@ -6,10 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import tvc from "./tvc.png";
-import mv from "./mv.png";
-import shortmovie from "./shortmovie.png";
-import adses from "./adses.png";
+import tvc from "./tvc.avif";
+import mv from "./mv.avif";
+import shortmovie from "./shortmovie.avif";
+import adses from "./adses.avif";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -24,12 +24,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import grablogo from "./brand/grablogo.png";
-import samsunglogo from "./brand/samsunglogo.png";
-import bonumlogo from "./brand/bonumlogo.png";
-import dplogo from "./brand/dplogo.png";
-import enchanteurlogo from "./brand/enchanteurlogo.png";
-import indosemarlogo from "./brand/indosemarlogo.png";
+import grablogo from "./brand/grablogo.avif";
+import samsunglogo from "./brand/samsunglogo.avif";
+import bonumlogo from "./brand/bonumlogo.avif";
+import dplogo from "./brand/dplogo.avif";
+import enchanteurlogo from "./brand/enchanteurlogo.avif";
+import indosemarlogo from "./brand/indosemarlogo.avif";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,12 +39,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import grab from "./grab.png";
-import lovedelivery from "./lovedelivery.jpg";
-import msw from "./msw.jpg";
-import bonumpos from "./bonumpos.jpg";
-import mahen from "./mahen.jpg";
-import enchanteur from "./enchanteur.jpg"
+import grab from "./yt/grab.avif";
+import lovedelivery from "./yt/lovedelivery.avif";
+import msw from "./yt/msw.avif";
+import bonumpos from "./yt/bonumpos.avif";
+import mahen from "./yt/mahen.avif";
+import enchanteur from "./yt/enchanteur.avif"
 
 export {
   logo,
