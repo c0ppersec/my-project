@@ -16,9 +16,9 @@ const Hero = () => {
         </div> */}
 
         <div>
-          <h1 className={`text-xl font-semibold text-[45px] sm:flex text-white 100 md:max-lg:flex`}>
-          <span className='text-[#FFFFFF]'>We're your digital solution</span>
-          </h1>
+          <p className={`text-xl font-semibold text-[45px] sm:flex text-white 100 md:max-lg:flex`}>
+          We're your digital solution
+          </p>
           <p className={`${styles.heroSubText} mt-3 ml-2.5 text-transparent text-7xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 animate-pulse`}>
            We bring your imagination to life <br className='sm:block hidden' />
           </p>
