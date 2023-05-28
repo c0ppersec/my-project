@@ -16,10 +16,10 @@ const Hero = () => {
         </div> */}
 
         <div>
-          <h1 className={`${styles.heroHeadText}sm:flex text-white 100 md:max-lg:flex`}>
-            We're<span className='text-[#FFFFFF]'> Walk Art Creative!</span>
+          <h1 className={`text-xl font-semibold text-[45px] sm:flex text-white 100 md:max-lg:flex`}>
+          <span className='text-[#FFFFFF]'>We're your digital solution</span>
           </h1>
-          <p className={`${styles.heroSubText} ml-1 text-transparent text-1xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 animate-pulse`}>
+          <p className={`${styles.heroSubText} mt-3 ml-2.5 text-transparent text-7xl bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600 animate-pulse`}>
            We bring your imagination to life <br className='sm:block hidden' />
           </p>
           {/* <p className='sm:flex flex-row mt-32 md:max-lg md:mt-32 md:ml-72 md:pl-96 font-normal text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700 text-[17.5px] max-1xl leading-[19px]'></p> */}
