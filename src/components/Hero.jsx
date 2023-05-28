@@ -23,7 +23,7 @@ const Hero = () => {
            We bring your imagination to life <br className='sm:block hidden' />
           </p>
           {/* <p className='sm:flex flex-row mt-32 md:max-lg md:mt-32 md:ml-72 md:pl-96 font-normal text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700 text-[17.5px] max-1xl leading-[19px]'></p> */}
-          <p className='sm:flex flex-row mt-3 md:max-lg md:mt-40 md:ml-72 md:pl-96 text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700'>
+          <p className='sm:flex ml-1 flex-row mt-3 md:max-lg md:mt-40 md:ml-72 md:pl-96 text-transparent text-1xl bg-clip-text bg-gradient-to-r from-lime-50 to-pink-700'>
           With experience in various industries, we provide creative digital solutions to <br />
           help you achieve your goals.
 
