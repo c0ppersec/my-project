@@ -34,11 +34,11 @@ const Hero = () => {
       {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-      <p className="xs:flex mt-28 sm:flex mb-3 md:mb-10 font-medium text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+      <p className="sm:flex mb-3 md:mb-10 font-medium text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
           Get to know more &nbsp; 
         </p>
         <a href='#about'>
-          <div className='xs:flex mt-28 sm:flex mb-3 md:mb-10 w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='sm:flex mb-3 md:mb-10 w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
